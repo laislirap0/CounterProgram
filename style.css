@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 30vh;
+    background-color: rgb(241, 200, 207);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    padding: 20px;
+}
+
+section {
+    border: 1px solid white;
+    background-color: white;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.349);
+}
+
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
